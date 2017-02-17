@@ -63,9 +63,9 @@
 			children = (
 				ED3F05BC1E56AE24001067FC /* AppDelegate.h */,
 				ED3F05BD1E56AE24001067FC /* AppDelegate.m */,
-				ED3F05BF1E56AE24001067FC /* ViewController.h */,
 				ED3F05D01E56AE35001067FC /* Student.h */,
 				ED3F05D11E56AE35001067FC /* Student.m */,
+				ED3F05BF1E56AE24001067FC /* ViewController.h */,
 				ED3F05C01E56AE24001067FC /* ViewController.m */,
 				ED3F05C21E56AE24001067FC /* Main.storyboard */,
 				ED3F05C51E56AE24001067FC /* Assets.xcassets */,

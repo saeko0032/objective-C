@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Student.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self crreatOneStudentObject];
+
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (void) crreatOneStudentObject {
+    Student *john = [[Student alloc] initStudentWithStudentID:@"1" andName:@"John" andAge:20 andMajor:@"English" andMyGpa:78.50 andCourses:NULL andAdmissionYear:2012 andAddress:@"Vancouver City center"];
+    [john printStudentInformation];
+}
 
 @end
