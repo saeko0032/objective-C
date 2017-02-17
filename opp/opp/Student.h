@@ -10,4 +10,6 @@
 
 @interface Student : NSObject
 
+@property NSString* studentID;
+
 @end
