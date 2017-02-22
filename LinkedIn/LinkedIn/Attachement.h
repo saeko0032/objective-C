@@ -10,4 +10,10 @@
 
 @interface Attachement : NSObject
 
+@property (nonatomic) NSInteger attachmentID;
+@property (nonatomic) NSInteger type;
+@property (strong, nonatomic) NSURL *dataURL;
+
+- (id)initWithALLPArameters:(NSInteger)attachmentID type:(NSInteger)type dataURL:(NSURL*)dataURL;
+
 @end

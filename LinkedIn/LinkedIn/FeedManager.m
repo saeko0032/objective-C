@@ -27,22 +27,11 @@
         self.likes = likes;
         self.comments = comments;
         self.type = type;
-        self.isReported = false;
     } else {
         self = nil;
     }
     
     return self;
-}
-- (void)addLike:(Like*)newLike {
-    self.numberOfLikes++;
-    [self.likes addObject:newLike];
-}
-
-- (void)addComments:(Comments*)newComment
-{
-    self.numberOfComments++;
-    [self.comments addObject:newComment];
 }
 
 - (void)editPostWithAttachmentAndType:(NSMutableArray<Attachement*>*) attachements type:(NSInteger)type {}

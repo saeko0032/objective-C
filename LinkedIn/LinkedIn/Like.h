@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "User.h"
 
 @interface Like : NSObject
+
+@property (nonatomic) NSInteger likeID;
+@property (strong, nonatomic)User* likeOwner;
+@property (strong, nonatomic)NSDate* date;
+
+- (id)initWithAllParameters:(NSInteger)likeID user:(User*)likeOwner date:(NSDate*)date;
 
 @end

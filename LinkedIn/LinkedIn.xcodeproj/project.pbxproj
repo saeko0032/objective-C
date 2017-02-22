@@ -16,6 +16,7 @@
 		ED90C8FF1E5D3C3F00C1C61F /* Attachement.m in Sources */ = {isa = PBXBuildFile; fileRef = ED90C8FE1E5D3C3F00C1C61F /* Attachement.m */; };
 		ED90C9021E5D3C4900C1C61F /* Comments.m in Sources */ = {isa = PBXBuildFile; fileRef = ED90C9011E5D3C4900C1C61F /* Comments.m */; };
 		ED90C9051E5D3C5400C1C61F /* Like.m in Sources */ = {isa = PBXBuildFile; fileRef = ED90C9041E5D3C5400C1C61F /* Like.m */; };
+		ED90C9081E5D4FB500C1C61F /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = ED90C9071E5D4FB500C1C61F /* Post.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		ED90C9011E5D3C4900C1C61F /* Comments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comments.m; sourceTree = "<group>"; };
 		ED90C9031E5D3C5400C1C61F /* Like.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Like.h; sourceTree = "<group>"; };
 		ED90C9041E5D3C5400C1C61F /* Like.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Like.m; sourceTree = "<group>"; };
+		ED90C9061E5D4FB500C1C61F /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		ED90C9071E5D4FB500C1C61F /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				ED90C9011E5D3C4900C1C61F /* Comments.m */,
 				ED90C9031E5D3C5400C1C61F /* Like.h */,
 				ED90C9041E5D3C5400C1C61F /* Like.m */,
+				ED90C9061E5D4FB500C1C61F /* Post.h */,
+				ED90C9071E5D4FB500C1C61F /* Post.m */,
 				ED90C8F71E5D385800C1C61F /* FeedManager.h */,
 				ED90C8F81E5D385800C1C61F /* FeedManager.m */,
 				ED90C8E31E5D26AF00C1C61F /* Supporting Files */,
@@ -172,6 +177,7 @@
 				ED90C8FF1E5D3C3F00C1C61F /* Attachement.m in Sources */,
 				ED90C8FC1E5D3B7F00C1C61F /* User.m in Sources */,
 				ED90C8F61E5D2F3A00C1C61F /* Profile.m in Sources */,
+				ED90C9081E5D4FB500C1C61F /* Post.m in Sources */,
 				ED90C8E51E5D26AF00C1C61F /* main.m in Sources */,
 				ED90C8F31E5D283600C1C61F /* Account.m in Sources */,
 				ED90C9051E5D3C5400C1C61F /* Like.m in Sources */,

@@ -10,4 +10,16 @@
 
 @implementation Like
 
+- (id)initWithAllParameters:(NSInteger)likeID user:(User*)likeOwner date:(NSDate*)date {
+    self = [super init];
+    if(self) {
+        self.likeID = likeID;
+        self.likeOwner = likeOwner;
+        self.date = date;
+    } else {
+        self = nil;
+    }
+    return self;
+}
+
 @end

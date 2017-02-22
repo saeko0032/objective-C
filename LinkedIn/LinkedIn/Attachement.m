@@ -10,4 +10,17 @@
 
 @implementation Attachement
 
+- (id)initWithALLPArameters:(NSInteger)attachmentID type:(NSInteger)type dataURL:(NSURL*)dataURL {
+    self = [super init];
+    if(self) {
+        self.attachmentID = attachmentID;
+        self.type = type;
+        self.dataURL = dataURL;
+    } else {
+        self = nil;
+    }
+    return self;
+
+}
+
 @end
