@@ -10,7 +10,7 @@
 
 @implementation ShoppingCart
 
-- (id)initWithProductItemArray:(NSMutableArray<Products *> *)productItemArray totalPricce:(int)totalPrice {
+- (id)initWithProductItemArray:(NSMutableArray<Products *> *)productItemArray {
     self = [super init];
     if (self) {
         self.productItemArray = productItemArray;
@@ -20,10 +20,6 @@
 
 - (void)addProductItem:(Products *)product {
     [self.productItemArray addObject:product];
-}
-
-- (int)totalProductsPrice {
-    return self.totalPrice;
 }
 
 - (void)printAllPurchaseProducts {
