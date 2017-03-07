@@ -16,7 +16,6 @@
 
 - (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray totalPricce:(int)totalPrice;
 - (void)addProductItem:(Products*)product;
-- (void)addProductPrice:(int)productID amount:(int)amount;
 - (int)totalProductsPrice;
 - (void)printAllPurchaseProducts;
 
