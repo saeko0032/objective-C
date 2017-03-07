@@ -57,7 +57,7 @@ int main(int argc, const char * argv[]) {
         for(int i = 0; i < s1.productItemArray.count; i++) {
             totalPrice += [[s1.productItemArray objectAtIndex:i] calculateCost];
         }
-        NSLog(@"totaLprice should be 196 = %d",totalPrice);
+        NSLog(@"total price should be 196 = %d",totalPrice);
         
         [s1 printAllPurchaseProducts];
     }
