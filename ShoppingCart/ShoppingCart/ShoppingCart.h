@@ -11,12 +11,10 @@
 
 @interface ShoppingCart : NSObject
 
-@property (nonatomic) int totalPrice;
 @property (strong, nonatomic)NSMutableArray<Products*>* productItemArray;
 
 - (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray totalPricce:(int)totalPrice;
 - (void)addProductItem:(Products*)product;
-- (int)totalProductsPrice;
 - (void)printAllPurchaseProducts;
 
 @end
