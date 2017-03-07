@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic)NSMutableArray<Products*>* productItemArray;
 
-- (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray totalPricce:(int)totalPrice;
+- (id)initWithProductItemArray:(NSMutableArray<Products*>*)productItemArray;
 - (void)addProductItem:(Products*)product;
 - (void)printAllPurchaseProducts;
 
